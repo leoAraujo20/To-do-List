@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Kanit", sans-serif;
+    color: #334155;
+}
+
+.section-todo {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#ef4444, #fecdd3);
+}
+
+.todo-heading {
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1.8rem;
+}
+
+.todo {
+    background-color: #fff;
+    height: 68rem;
+    width: 68rem;
+    padding: 2.6rem;
+    border-radius: 2.2rem;
+}
+
+.todo-input {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    justify-content: space-between;
+    gap: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.task-input,
+.date-input {
+    padding: 1.6rem 3.2rem;
+    border-radius: 1.2rem;
+    border: 1px solid;
+}
+
+.task-add {
+    background-color: #ef4444;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    color: #fff;
+    border-radius: 1.6rem;
+    cursor: pointer;
+}
+
+.task-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-item {
+    padding: 1.2rem 2.4em;
+    border-radius: 1.6rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    align-items: center;
+    gap: 0.4rem
+}
+
+.task-text {
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+.task-date {
+    font-size: 1.4rem;
+}
+
+.delete-btn {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 2.4rem;
+    height: 2.4rem; 
+    justify-self: end;
+}
+
+.delete-icon{
+    width: 2.4rem;
+    height: 2.4rem;
+    color: #334155;
+}
+
+.display-tasks {
+    max-height: 46rem; 
+    overflow-y: auto;
+    padding-right: 1rem;
+}
+
+.btn-done {
+    background-color: #fff;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.task-done {
+    text-decoration: line-through;
+}
+
+.task-check {
+    background-color: #ef4444;
+    border: none;
+    color: #fff;
+    position: relative;
+}
+
+.task-check::before {
+    content: "\2713";
+    position: absolute;
+    font-size: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
