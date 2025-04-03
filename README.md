@@ -1,26 +1,23 @@
-# To-Do List Application
+# Aplicação de Lista de Tarefas
 
-A simple To-Do List application built with HTML, CSS, and JavaScript. This project helps you manage tasks efficiently by allowing you to add, mark as done, and delete tasks.
-
----
-
-## Features
-
-- Add new tasks with a description and due date.
-- Mark tasks as completed.
-- Delete tasks from the list.
-- Dynamic updates without page refresh.
+Uma simples aplicação de Lista de Tarefas construída com HTML, CSS e JavaScript. Este projeto ajuda a gerenciar tarefas de forma eficiente, permitindo adicionar, marcar como concluídas e excluir tarefas.
 
 ---
 
-## Final Design
+## Funcionalidades
+
+- Adicionar novas tarefas com descrição e data de vencimento.
+- Marcar tarefas como concluídas.
+- Excluir tarefas da lista.
+- Atualizações dinâmicas sem necessidade de recarregar a página.
+
+---
+
+## Design
 
 ![Application Design](images/design.png)
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
 
 
